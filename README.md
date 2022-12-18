@@ -1,5 +1,7 @@
 # Everyday-Spring-Boot-
-My repository containing all my code experiments using Spring Boot framework. 
 
-### Purpose:
-The codes will act as snippets for my future projects involving Spring Boot.
+### Project Type: Experiment
+My repository containing all my code experiments using the Spring Boot framework. 
+
+### Purpose of the repository:
+The codes stored in this repository will act as snippets for my future projects involving Spring Boot.
