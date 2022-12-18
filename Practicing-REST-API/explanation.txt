@@ -1,0 +1,22 @@
+This application is annotated with @SpringBootApplication, which enables Spring Boot's 
+auto-configuration and component scanning features. It also has
+a @RestController annotation, which indicates that it is a controller class that
+that handles incoming HTTP requests and return responses.
+
+The main method uses Spring Boots SpringApplication.run method to
+launch the application. It also has a @GetMapping annotation on the getNotes
+method, which maps it to the /notes URL and specifies that it should handle 
+HTTP GET requests. This method returns a list of all the notes that have been
+created.
+
+The addNote method is annotated with @PostMapping, which specifies that it should handle
+HTTP POST requests and maps it to the /notes URL. It also has a RequestBody
+annotation, which indicates that the request body should be deserialized into a Note 
+object and passed as an argument to the method. 
+This method adds the new note to the list of notes. 
+
+Overall, this Spring Boot application exposes a simple REST API for
+creating and retrieving notes. It uses annotations to specify the HTTP method
+and URL that each method should handle, and uses the @RequestBody annotation to
+deserialize request bodies into objects.
+
